@@ -1,16 +1,90 @@
-# slash_test
+# Slash App - Responsive Home Screen
 
-A new Flutter project.
+## Table of Contents
+- [Introduction](#introduction)
+- [Objective](#objective)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contact](#contact)
 
-## Getting Started
+## Introduction
+This repository contains the code for the internship task assigned by Slash. The objective of this project is to develop a responsive UI for the Home Screen of the Slash App that adapts seamlessly to both mobile and web platforms, based on the provided Figma design and dummy data.
 
-This project is a starting point for a Flutter application.
+## Objective
+- Implement a responsive Home Screen for the Slash App.
+- Follow clean architecture principles and use the MVVM pattern with Cubit for state management.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
+- Responsive design for both mobile and web platforms.
+- Clean architecture following the MVVM pattern.
+- State management using Cubit.
+- Consistent design as per the provided Figma design.
+- Fetch and display data from provided dummy data.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Technologies Used
+- **Framework:** Flutter
+- **State Management:** Cubit
+- **Architecture:** Clean architecture, MVVM pattern
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Setup and Installation
+To run this project locally, follow these steps:
+
+1. **Clone the repository:**
+    ```bash
+    git clone https://github.com/Waheed-Ashraf/Slash-Internship-Task.git
+    cd Slash-Internship-Task
+    ```
+
+2. **Install dependencies:**
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app:**
+    - For mobile:
+      ```bash
+      flutter run
+      ```
+    - For web:
+      ```bash
+      flutter run -d chrome
+      ```
+
+## Usage
+the app runs without errors on both mobile and web platforms. The Home Screen adapts its layout based on the screen size, utilizing appropriate widgets for each platform.
+
+### Endpoints
+- Fetch and display data using dummy data provided in the repository.
+
+## Project Structure
+```plaintext
+Slash-Internship-Task/
+├── lib/
+│   ├── core/
+│   │   ├── utils/
+│   │   └── services/
+│   ├── home/
+│   │   ├── data/
+│   │   │   ├── models/
+│   │   │   └── repositories/
+│   │   ├── domain/
+│   │   │   ├── entities/
+│   │   │   ├── repositories/
+│   │   │   └── use_cases/
+│   │   ├── presentation/
+│   │   │   ├── view_models/
+│   │   │   ├── widgets/
+│   │   │   └── views/
+│   └── main.dart
+├── test/
+├── .gitignore
+├── pubspec.yaml
+└── README.md
+
+├── test/
+├── .gitignore
+├── pubspec.yaml
+└── README.md
