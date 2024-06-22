@@ -84,19 +84,14 @@ Slash-Internship-Task/
 ├── .gitignore
 ├── pubspec.yaml
 └── README.md
-
-├── test/
-├── .gitignore
-├── pubspec.yaml
-└── README.md
 ```
-##APK Download
+## APK Download
 
 You can download the APK file for the Slash App from the following link:
 
 [Slash App APK Download](https://drive.google.com/file/d/10E8iy7iffGEFuXXocpFRMtLfJiEhST4N/view?usp=drive_link)
 
-##Contact
+## Contact
 
 For any questions or suggestions, feel free to contact me:
 
