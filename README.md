@@ -8,6 +8,7 @@
 - [Setup and Installation](#setup-and-installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
+- [APK Download](#apk-download)
 - [Contact](#contact)
 
 ## Introduction
@@ -88,3 +89,18 @@ Slash-Internship-Task/
 ├── .gitignore
 ├── pubspec.yaml
 └── README.md
+```
+##APK Download
+
+You can download the APK file for the Slash App from the following link:
+
+[Slash App APK Download](https://drive.google.com/file/d/10E8iy7iffGEFuXXocpFRMtLfJiEhST4N/view?usp=drive_link)
+
+##Contact
+
+For any questions or suggestions, feel free to contact me:
+
+Email: washraf124@gmail.com
+LinkedIn: [Waheed Ashraf](https://www.linkedin.com/in/waheed-ashraf-18a197214/)
+
+
